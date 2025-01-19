@@ -1,0 +1,85 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: black;
+}
+
+.navbar-brand {
+    width: 55%;
+    text-align: right;
+}
+
+#navbar-logo {
+    width: 130px;
+    height: 30px;
+}
+
+.navbar-navigation {
+    display: flex;
+}
+
+.navbar-navigation-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navbar-link,
+.navbar-button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-button {
+    background: rgb(28, 145, 255);
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero-content {
+    width: 55%;
+    text-align: center;
+}
+
+.hero-title {
+    width: 65%;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin: 0px auto;
+}
+
+.hero-description {
+    width: 75%;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 20px auto 0px auto;
+}
+
+.hero-image {
+    width: 45%;
+    height: 600px;
+    background-image: url("/assets/images/pete-hegseth.webp");
+    background-size: cover;
+}
