@@ -46,7 +46,7 @@ header {
     background: rgb(28, 145, 255);
     padding: 8px 20px;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .hero {
@@ -62,16 +62,16 @@ header {
 }
 
 .hero-title {
-    width: 65%;
+    width: 55%;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
     line-height: 1.4;
     margin: 0px auto;
 }
 
 .hero-description {
-    width: 75%;
+    width: 65%;
     font-size: 18px;
     line-height: 1.4;
     margin: 20px auto 0px auto;
