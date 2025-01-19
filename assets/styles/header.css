@@ -38,10 +38,6 @@ header {
     font-size: 16px;
 }
 
-.navbar-link:hover {
-    text-decoration: underline;
-}
-
 .navbar-button {
     background: rgb(28, 145, 255);
     padding: 8px 20px;

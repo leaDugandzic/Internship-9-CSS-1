@@ -34,10 +34,6 @@
     margin: 10px 0;
 }
 
-.card-title:hover {
-    text-decoration: underline;
-}
-
 .card-text {
     font-size: 14px;
     color: #333;
@@ -49,4 +45,56 @@
 .card-author {
     font-size: 14px;
     font-weight: bold;
+}
+
+.news-container {
+    width: 100%;
+    margin: 70px auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.news-category {
+    font-size: 14px;
+    font-weight: bold;
+    color: #c00;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.news-content {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.news-title {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.news-description {
+    font-size: 18px;
+}
+
+.news-author {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.news-image-container {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
 }
