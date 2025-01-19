@@ -6,7 +6,7 @@
 
 .cards-section-title {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -97,4 +97,53 @@
 .news-image {
     width: 100%;
     height: auto;
+}
+
+h2.section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.columnists-section {
+    width: 90%;
+    margin: 70px auto;
+    padding: 20px;
+}
+
+.columnists-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.columnist {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.columnist-image {
+    width: 100%;
+    height: 50%;
+}
+
+.columnist-title {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.columnist-description {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.columnist-author {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
 }
