@@ -76,6 +76,6 @@ header {
 .hero-image {
     width: 45%;
     height: 600px;
-    background-image: url("/assets/images/pete-hegseth.webp");
+    background-image: url("https://dims.apnews.com/dims4/default/a66f864/2147483647/strip/false/crop/8585x5724+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7c%2Fe4%2Fa52f4c8f5c4bcfc133e4ad6f092e%2F96e0c8ce057d423fa48101d0d99c2970");
     background-size: cover;
 }
